@@ -1,0 +1,27 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "instagram.js",
+  "scripts": {
+    "start": "node instagram.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "instagram-scraping": "^1.0.17",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.4",
+    "node-cron": "^3.0.1",
+    "node-fetch": "^3.2.8",
+    "nodemailer": "^6.7.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "uuid": "^8.3.2"
+  }
+}
